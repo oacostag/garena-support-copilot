@@ -1,0 +1,23 @@
+# Archivos de sistema operativo (macOS, Windows, Linux)
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Variables de entorno y secretos
+.env
+.env.*
+!.env.example
+
+# Llaves y credenciales
+*.pem
+*.key
+*.crt
+*.p12
+*credentials*.json
+
+# Logs
+*.log
+logs/
+
+# Configuración local de Claude Code (específica de cada máquina, no se comparte)
+.claude/settings.local.json
